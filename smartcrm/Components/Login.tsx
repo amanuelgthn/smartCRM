@@ -12,7 +12,7 @@ const Login = () => {
         fetch('http://localhost:5173/auth/adminlogin', {
             method: 'POST',
             mode: 'no-cors',
-            credentials: 'include', // This replaces axios.defaults.withCredentials = true
+            credentials: 'include',
             headers: {
                 'Content-Type': 'application/json'
             },
